@@ -102,7 +102,7 @@
         },
         {
           "value": "eu-west-2",
-          "label": "EU (London)"
+          "label": "EU (London)",
           "default": true
         },
         {

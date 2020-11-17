@@ -102,8 +102,7 @@
         },
         {
           "value": "eu-west-2",
-          "label": "EU (London)",
-          "default": true
+          "label": "EU (London)"
         },
         {
           "value": "ap-northeast-1",

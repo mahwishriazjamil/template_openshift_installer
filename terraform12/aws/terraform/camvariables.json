@@ -79,7 +79,6 @@
         {
           "value": "us-east-2",
           "label": "US East (Ohio)",
-          "default": true
         },
         {
           "value": "us-west-1",
@@ -104,6 +103,7 @@
         {
           "value": "eu-west-2",
           "label": "EU (London)"
+          "default": true
         },
         {
           "value": "ap-northeast-1",

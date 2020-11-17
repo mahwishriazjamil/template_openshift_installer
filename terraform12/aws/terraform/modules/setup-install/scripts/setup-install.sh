@@ -1,7 +1,7 @@
 #/bin/bash
 
-curl -s https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.2.0/openshift-install-linux-4.2.0.tar.gz | sudo tar xz -C /usr/local/bin/ --exclude=README.md
-curl -s https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.2.0/openshift-client-linux-4.2.0.tar.gz | sudo tar xz -C /usr/local/bin/ --exclude=README.md
+curl -s https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.5.7/openshift-install-linux-4.5.7.tar.gz | sudo tar xz -C /usr/local/bin/ --exclude=README.md
+curl -s https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.5.7/openshift-install-linux-4.5.7.tar.gz | sudo tar xz -C /usr/local/bin/ --exclude=README.md
 
 export AWS_ACCESS_KEY_ID=${1}
 export AWS_SECRET_ACCESS_KEY=${2}

@@ -17,7 +17,7 @@ resource "random_id" "complete_install" {
     host        = "${var.bastion_public_ip}"
     user        = "${var.rhel_user}"
     agent       = false
-    timeout     = "30s"
+    timeout     = "60m"
     private_key = "${var.vm_private_key}"
   }
 

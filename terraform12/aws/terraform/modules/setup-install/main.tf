@@ -38,7 +38,7 @@ resource "random_id" "setup_install" {
     host        = var.bastion_public_ip
     user        = var.rhel_user
     agent       = false
-    timeout     = "5m"
+    timeout     = "60m"
     private_key = var.vm_private_key
   }
 
